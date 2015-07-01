@@ -1,0 +1,16 @@
+997e81b55d33c496ba3598f91585eb5d *DESCRIPTION
+b47e2c96a59f2e57a85c2c001332c98a *LICENSE
+1e0badb8f10d3f652949f51ce925e2b8 *NAMESPACE
+7323b8b9a96e299df160cda573884c9b *R/clip.small.probs.R
+5b2de5b7524295a062951d2b92a2f6e6 *R/compliance.score.R
+f967c632d6803542b31ad76d42c53ab2 *R/icsw.tsls.R
+71cdfe559b7f25f7de0fa4f5096ee474 *R/icsw.tsls.fit.R
+c4f14b63e89a6b8a76fbd7c5465868fd *R/tsls.wfit.R
+6936fb5e784c5f5266f8329ee55121b0 *README.md
+31163b19bbc6f254d8c17ea191e26a30 *data/FoxDebate.rda
+b948a27c3b7359f286957f112878761b *man/FoxDebate.Rd
+d745d3b4d35a56fbe406d4583040100d *man/clip.small.probs.Rd
+ed1c7eb4397234a7dc64b999bd3420db *man/compliance.score.Rd
+119691d5bf3db862572366c928141842 *man/icsw-package.Rd
+044a792287f83ee0c53600bf26321db1 *man/icsw.tsls.Rd
+d662e6f651e3734657c3b713d6f76149 *man/tsls.wfit.Rd

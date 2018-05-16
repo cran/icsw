@@ -15,8 +15,8 @@ complying with an encouragement (instrument).
 \tabular{ll}{
 Package: \tab icsw\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2015-06-05\cr
+Version: \tab 1.0.0\cr
+Date: \tab 2018-05-16\cr
 License: \tab  MIT\cr
 LazyLoad: \tab yes\cr
 }

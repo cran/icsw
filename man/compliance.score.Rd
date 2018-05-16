@@ -38,12 +38,12 @@ Link function applied for linear models. Defaults to probit link function.
 Inverse link function (i.e., mean function) applied for linear models. Defaults to probit mean function.
 }
   \item{genoud}{
-Whether to use global optimization via genetic optimizaton from package \code{rgenoud}.
+Whether to use global optimization via genetic optimization from package \code{rgenoud}.
 Default, and highly recommended because the likelihood need not be concave.
 Otherwise, use the BOBYQA algorithm for constrained optimization from package \code{minqa}.
 }
   \item{num.iter}{
-Number of iterations of optimation routine.
+Number of iterations of optimization routine.
 }
   \item{one.sided}{
 Whether non-compliance is one-sided (logical). When compliance is one-sided, the previous
@@ -84,13 +84,13 @@ Used by \code{\link{icsw.tsls}}.
 data(FoxDebate)
 
 # Matrix of covariates
-covmat <- with(FoxDebate, cbind(partyid, pnintst, watchnat, educad, readnews, gender, 
-                                income, white))
+covmat <- with(FoxDebate, cbind(partyid, pnintst, watchnat, educad, readnews, 
+                                gender, income, white))
 
 # Estimate compliance scores with covariates, assuming (default) 
 #   case of two-sided non-compliance
 cscoreout <- with(FoxDebate, compliance.score(D = watchpro, Z = conditn,
-                              W = covmat))
+                                              W = covmat))
 
 # Extract vector of estimated compliance scores
 cscore <- cscoreout$C.score
